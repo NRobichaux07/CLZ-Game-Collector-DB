@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sortfieldlists>
+  <sortfields activemain="true" activeexportxsl="true" activeexporttext="true" activeprint="true">
+    <name>Title</name>
+    <column id="3" order="1"/>
+  </sortfields>
+  <sortfields>
+    <name>Title/Release Year</name>
+    <column id="3" order="1"/>
+    <column id="20" order="-1"/>
+  </sortfields>
+  <sortfields>
+    <name>Platform/Title</name>
+    <column id="8" order="1"/>
+    <column id="3" order="1"/>
+  </sortfields>
+</sortfieldlists>

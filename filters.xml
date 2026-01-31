@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<filterlist>
+  <filter>
+    <name>Soccer games</name>
+    <active>false</active>
+    <activemce>false</activemce>
+    <casesensitive>false</casesensitive>
+    <operator type="AND" not="false">
+      <nodes>
+        <node>
+          <condition type="string" function="scContains">
+            <fieldid>3</fieldid>
+            <fieldlabel>Title</fieldlabel>
+            <listtype>2</listtype>
+            <string><![CDATA[soccer]]>
+            </string>
+          </condition>
+        </node>
+      </nodes>
+    </operator>
+  </filter>
+  <filter>
+    <name>Wii games released after 2006</name>
+    <active>false</active>
+    <activemce>false</activemce>
+    <casesensitive>false</casesensitive>
+    <operator type="AND" not="false">
+      <nodes>
+        <node>
+          <condition type="lookup" function="lcEqual">
+            <fieldid>8</fieldid>
+            <fieldlabel>Platform</fieldlabel>
+            <listtype>2</listtype>
+            <string><![CDATA[Wii]]>
+            </string>
+            <lookupitemid>262</lookupitemid>
+          </condition>
+        </node>
+        <node>
+          <condition type="lookup" function="lcMore">
+            <fieldid>20</fieldid>
+            <fieldlabel>Release Year</fieldlabel>
+            <listtype>2</listtype>
+            <string><![CDATA[2006]]>
+            </string>
+            <lookupitemid>56</lookupitemid>
+          </condition>
+        </node>
+      </nodes>
+    </operator>
+  </filter>
+</filterlist>

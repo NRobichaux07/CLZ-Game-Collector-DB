@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<groupfieldlists>
+  <groupfields>
+    <name>Platform</name>
+    <column id="8"/>
+  </groupfields>
+  <groupfields>
+    <name>Completeness</name>
+    <column id="86"/>
+  </groupfields>
+  <groupfields>
+    <name>Location</name>
+    <column id="47"/>
+  </groupfields>
+  <groupfields>
+    <name>Release Year</name>
+    <column id="20"/>
+  </groupfields>
+  <groupfields>
+    <name>Games/Hardware / Platform</name>
+    <column id="75"/>
+    <column id="8"/>
+  </groupfields>
+  <groupfields>
+    <name>Platform / Completeness</name>
+    <column id="8"/>
+    <column id="86"/>
+  </groupfields>
+</groupfieldlists>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefillfieldlists>
+  <prefillfields>
+    <column id="85">
+      <value>1</value>
+    </column>
+    <column id="87">
+      <value>1</value>
+    </column>
+    <column id="88">
+      <value>1</value>
+    </column>
+    <column id="47"/>
+    <column id="23"/>
+    <column id="22"/>
+    <column id="25">
+      <value>0</value>
+    </column>
+    <column id="18">
+      <usenow>0</usenow>
+    </column>
+    <column id="56">
+      <value>1</value>
+    </column>
+    <column id="71"/>
+  </prefillfields>
+</prefillfieldlists>
